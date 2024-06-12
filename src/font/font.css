@@ -1,0 +1,10 @@
+@font-face {
+    font-family: 'KCC-Hanbit';
+    src: url('./hanbit.otf') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+  body {
+    font-family: 'KCC-Hanbit', sans-serif;
+  }
