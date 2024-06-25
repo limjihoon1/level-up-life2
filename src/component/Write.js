@@ -18,7 +18,7 @@ const Write= (props)=>{
 
     const [update, setUpdate]= useState(false)
     const aaa=''
-
+  
     const sendWrite= ()=>{
             //javascriptInterface로 등록할 때 지정한 별칭("Droid")객체가 웹뷰의 window 최상위객체의 멤버로 등록됨
             window.Droid.loadWrite(msg)
